@@ -1,0 +1,174 @@
+(footprint "DLF162500LT-5028A1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e57a8dce-e3d9-4f15-965b-bdef4555099a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DLF162500LT-5028A1"
+		(at 0 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7509153-f08b-4cf0-af21-bfe0905b812e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b31360f6-07ff-4436-a2d5-1fe995548d44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7923e709-7d22-46df-8ac1-b1ae214eb588")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -0.41)
+		(end 0.88 -0.41)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f315ccd5-b8cd-45a0-9d45-4f7ff9628b12")
+	)
+	(fp_line
+		(start -0.9 -0.2)
+		(end -0.9 -0.41)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5f24c923-6ae2-4ab5-a8ac-54975a86e1ce")
+	)
+	(fp_line
+		(start -0.9 0.42)
+		(end -0.9 0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b5a57a8a-83cc-4763-9e89-11c4606e400d")
+	)
+	(fp_line
+		(start 0.88 -0.41)
+		(end 0.88 0.42)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ae06620-0e7c-4175-a788-b55b76c543d4")
+	)
+	(fp_line
+		(start 0.88 0.42)
+		(end -0.9 0.42)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3fe0c551-07c1-4664-9f94-6fab403373ad")
+	)
+	(fp_circle
+		(center -0.9 0)
+		(end -0.9 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e1c05228-e3f5-426d-b9ce-31df57e1f8f6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a2e9f180-2b5b-4e2d-9a52-e15704ef627b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.613 0 180)
+		(size 0.275 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "9a2d355b-413e-43f9-89f9-d38d45aa62ce")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.2275 90)
+		(size 0.245 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "8a609909-4dd5-4c0f-be26-b8e645a37d51")
+	)
+	(pad "3" smd roundrect
+		(at 0.613 0 180)
+		(size 0.275 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "97df59c6-1163-49f0-9071-1aca70875906")
+	)
+	(pad "4" smd roundrect
+		(at 0 -0.2275 90)
+		(size 0.245 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "d04575e9-b7ad-4926-a4bb-2c88ec219c64")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/wrigh/Desktop/STM32-PCB/DLF-4_1P6X0P8.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
